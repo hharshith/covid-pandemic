@@ -1,0 +1,55 @@
+<style>
+	body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;
+font-family: georgia;}
+div{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMxc0Z3mibzCOxWhMGmG8vVXTyRlFZONvKHA&usqp=CAU");
+}
+#mainpoint{
+	font-size: 17px;
+	
+	background-color: lightgreen;
+	opacity: .7;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+.highlight{
+	font-size: 17px;
+	
+	background-color: gold;
+	opacity: .7;
+}
+a:link,a:visted{
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+a:hover,a:active{
+	background-color: gray;
+	color: black;
+}
+li a{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	border: 1px white;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+	background-color: orange;
+	transition: 0.6s ease;
+}
+
+</style>
