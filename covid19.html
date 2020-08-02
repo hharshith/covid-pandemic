@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  	    <meta charset="utf-8">
+  	    <script>
+  	    	function sayHello (event) {
+	var name = 
+	 document.getElementById("name").value;
+	 var message ="<h2>Hello " + name + "!</h2>";
+
+	 document.getElementById("content").innerHTML =message;
+	 }
+
+  	    </script>
+  	    <title>Covid pandemic</title>
+    </head>
+    <body>
+    	<h1>How Contagious is the Coronavirus?</h1>
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM5WnfYhIfpIXMnJd0ItYAXfDlWCl0-MOvlQ&usqp=CAU" width="440" height="280" class="center"><br>
+    	<p>
+    		Enter your name : 
+    		<input id="name" type="text">
+    		<button onclick="sayHello();">
+             Done!               
+    		</button>
+    		<button><a href="https://hharshith.github.io/covid-pandemic/covid%20pandemic/covid%20pandemic.html">next>></button>
+    	</p>
+
+        <div id="content"></div>
+        <script src="js/script.js"></script>
+    </body> 
+</html>
